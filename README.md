@@ -8,9 +8,18 @@ npm install
 
 ## Usage
 
+### With `schedule()`
+
 ```bash
-npm start real
-npm start fake  # <- Hangs after call 1
+npm start real schedule
+npm start fake schedule  # <- Doesn't work
+```
+
+### With `submit()`
+
+```bash
+npm start real submit
+npm start fake submit  # <- Doesn't work
 ```
 
 ## Author
