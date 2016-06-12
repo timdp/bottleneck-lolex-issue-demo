@@ -1,0 +1,12 @@
+{
+  "name": "bottleneck-lolex-issue-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bottleneck": "^1.12.0",
+    "lolex": "^1.5.0"
+  }
+}
